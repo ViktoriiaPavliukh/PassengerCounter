@@ -1,0 +1,39 @@
+.container {
+  background-image: url("station.png");
+  background-size: cover;
+  font-weight: bold;
+  text-align: center;
+  height: 100vh;
+  padding-top: 30px;
+}
+
+h1 {
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(139, 73, 171);
+}
+
+#save-btn {
+  background: rgb(193, 145, 200);
+}
