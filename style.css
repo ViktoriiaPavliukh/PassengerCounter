@@ -6,9 +6,16 @@
   height: 100vh;
   padding-top: 30px;
 }
+.wrapper {
+  margin: 0 auto;
+  background-color: white;
+  width: 50%;
+  border: 1px solid black;
+}
 
 h1 {
   color: black;
+  padding-top: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -17,6 +24,10 @@ h2 {
   font-size: 50px;
   margin-top: 0;
   margin-bottom: 20px;
+}
+
+p {
+  padding-bottom: 20px;
 }
 
 button {
@@ -28,6 +39,7 @@ button {
   width: 200px;
   margin-bottom: 5px;
   border-radius: 5px;
+  margin: 5px 20px;
 }
 
 #increment-btn {
